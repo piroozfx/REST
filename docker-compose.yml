@@ -1,0 +1,10 @@
+version: '3' 
+services:
+
+  course-submission:
+       image: course/course-submission:latest
+       container_name: course-submission
+       ports:
+           - "8080:8080" 
+
+
